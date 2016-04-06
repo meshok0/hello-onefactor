@@ -25,6 +25,9 @@ mkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS,tmp}
 cd rpmbuild
 mkdir -p hello-onefactor-0.0.3/{usr/lib,etc/systemd/system}
 cp ../hello-onefactor/target/hello-onefactor-0.0.3.jar hello-onefactor-0.0.3/usr/lib/hello-onefactor.jar
+```
+(/usr/lib/ is not a correct path for jars. It will be changed later)
+```
 cp ../hello-onefactor/hello-onefactor.service hello-onefactor-0.0.3/etc/systemd/system/
 tar czf SOURCES/hello-onefactor-0.0.3.tar.gz hello-onefactor-0.0.3/
 cp ../hello-onefactor/hello-onefactor.spec SPECS/
