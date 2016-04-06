@@ -9,7 +9,7 @@ public class HelloOnefactor {
 
     @RequestMapping("/")
     String home() {
-        return "Hello OneFactor v 0.0.2 !";
+        return "Hello OneFactor v 0.0.3 !";
     }
 
     public static void main(String[] args) throws Exception {

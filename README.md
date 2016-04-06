@@ -18,9 +18,10 @@ cd hello-onefactor/
 mvn package
 ```
 
-To build rpm:
+# To build rpm:
 ```
 cd ~
+
 
 ```
 
