@@ -1,6 +1,6 @@
 Name: 		hello-onefactor
 Version: 	0.0.3
-Release:	1
+Release:	2
 Summary:	Hello OneFactor
 
 Group:		Applications/System
