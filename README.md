@@ -28,7 +28,7 @@ cp ../hello-onefactor/target/hello-onefactor-0.0.3.jar hello-onefactor-0.0.3/usr
 cp ../hello-onefactor/hello-onefactor.service hello-onefactor-0.0.3/etc/systemd/system/
 tar czf SOURCES/hello-onefactor-0.0.3.tar.gz hello-onefactor-0.0.3/
 cp ../hello-onefactor/hello-onefactor.spec SPECS/
-
+rpmbuild -bb SPECS/hello-onefactor.spec
 ```
 
 # To install rpm:
