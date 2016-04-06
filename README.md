@@ -21,6 +21,10 @@ mvn package
 # To build rpm:
 ```
 cd ~
+mkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS,tmp}
+cd rpmbuild
+mkdir -p hello-onefactor-0.0.3/{usr/lib,etc/systemd/system}
+cp ../hello-onefactor/target/hello-onefactor-0.0.3.jar hello-onefactor-0.0.3/usr/lib/
 
 
 ```

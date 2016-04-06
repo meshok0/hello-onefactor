@@ -1,0 +1,10 @@
+[Unit]
+Description=Hello Onefactor Daemon
+
+[Service]
+ExecStart=/usr/bin/java -jar /usr/lib/hello-onefactor.jar
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
