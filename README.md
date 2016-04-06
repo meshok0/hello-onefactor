@@ -33,7 +33,7 @@ cp ../hello-onefactor/hello-onefactor.spec SPECS/
 
 # To install rpm:
 ```
-sudo yum localinstall RPMS/noarch/hello-onefactor-0.0.3-1.noarch.rpm -y
+sudo yum localinstall RPMS/noarch/hello-onefactor-0.0.3-2.noarch.rpm -y
 ```
 (Feel free to install this rpm on any other centos7 machine)
 
